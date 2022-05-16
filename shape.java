@@ -11,7 +11,14 @@ class Shape {
   }
 }
 
-// A Rectangle is a Shape with a specific width and height
+// Añadido el JavaDoc 
+
+/**
+ * A Rectangle is a Shape with a specific width and height
+ * 
+ * @param width  anchura del rectangulo
+ * @param height altura del rectangulo
+ */
 class Rectangle extends Shape { // extended form the Shape class
   private double width;
   private double height;
@@ -26,7 +33,11 @@ class Rectangle extends Shape { // extended form the Shape class
   }
 }
 
-// A Circle is a Shape with a specific radius
+/**
+ * A Circle is a Shape with a specific radius
+ * 
+ * @param radius es el radio del circulo
+ */
 class Circle extends Shape {
   private double radius;
 
@@ -39,8 +50,11 @@ class Circle extends Shape {
   }
 }
 
-// Class del Cuadrado
-
+/**
+ * Class del Cuadrado añadido por mi
+ * 
+ * @param lado es el tamaño del lado de un cuadrado, todos los lados son iguales
+ */
 class Cuadrado extends Shape {
   private double lado;
   private double areaCuadrado;
